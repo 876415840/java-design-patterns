@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Description
+ * @Description 抽象文档模式
  * @Author MengQingHao
  * @Date 2019/10/31 7:03 下午
  * @Version 1.0
