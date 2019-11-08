@@ -1,10 +1,4 @@
-package com.alan.singleton;
-
-import lombok.Getter;
-import lombok.Setter;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.alan.singleton.domain;
 
 /**
  * @Description 枚举式单例

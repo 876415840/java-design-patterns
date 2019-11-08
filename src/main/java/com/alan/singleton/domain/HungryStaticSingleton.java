@@ -1,4 +1,4 @@
-package com.alan.singleton;
+package com.alan.singleton.domain;
 
 /**
  * @Description 静态块-饿汉

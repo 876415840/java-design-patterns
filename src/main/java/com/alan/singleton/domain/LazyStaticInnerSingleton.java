@@ -1,4 +1,4 @@
-package com.alan.singleton;
+package com.alan.singleton.domain;
 
 /**
  * @Description 懒汉式-内部类实现

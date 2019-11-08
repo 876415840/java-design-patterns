@@ -1,4 +1,4 @@
-package com.alan.singleton;
+package com.alan.singleton.domain;
 
 import java.lang.reflect.Constructor;
 import java.util.Map;
