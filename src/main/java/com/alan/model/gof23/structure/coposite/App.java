@@ -38,7 +38,7 @@ import com.alan.model.gof23.structure.coposite.domain.Leaf;
  * 安全方式：在该方式中，将管理子构件的方法移到树枝构件中，抽象构件和树叶构件没有对子对象的管理方法，这样就避免了上一种方式的安全性问题，
  * 但由于叶子和分支有不同的接口，客户端在调用时要知道树叶对象和树枝对象的存在，所以失去了透明性。
  *
- * @Description:
+ * @Description: 组合模式
  * @Author MengQingHao
  * @Date 2019/11/23 5:26 下午
  * @Version 1.0
