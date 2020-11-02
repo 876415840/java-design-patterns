@@ -37,6 +37,15 @@ import com.alan.model.gof23.create.abs.factory.domain.Product2;
  */
 public class App {
 
+    /**
+     * 抽象工厂模式
+     * -- 适用于兼容场景，兼容多个业务类的相同功能方法
+     *
+     * 定义一个接口及n个方法
+     * 不同的业务类创建不同的实现，方法内调用业务类方法
+     * 新的接口及实现类兼容原不同的业务类
+     *
+     */
     public App(){
         String[] classNames = new String[]{"com.alan.model.construction.abs.factory.domain.ConcreteFactory1", "com.alan.model.construction.abs.factory.domain.ConcreteFactory2"};
         for (String className : classNames) {

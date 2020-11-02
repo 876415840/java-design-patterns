@@ -2,6 +2,9 @@ package com.alan.model.gof23.structure.proxy;
 
 import com.alan.model.gof23.structure.proxy.domain.Proxy;
 
+import java.util.ArrayList;
+import java.util.concurrent.ThreadPoolExecutor;
+
 /**
  *
  * 代理模式的定义与特点

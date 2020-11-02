@@ -37,6 +37,14 @@ import com.alan.model.gof23.create.builder.domain.Product;
  */
 public class App {
 
+    /**
+     * 建造者模式
+     * -- 适用于固定组件，各种不同的组合方式
+     *
+     * 不同的业务就是不同的组合方式
+     * 定义一个建造者类，将不同的组装方式定义为指定建造方法
+     *
+     */
     public App() {
         Builder builder=new ConcreteBuilder();
         Director director=new Director(builder);

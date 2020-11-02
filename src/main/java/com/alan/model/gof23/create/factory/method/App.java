@@ -36,6 +36,12 @@ import com.alan.model.gof23.create.factory.method.domain.Product;
  */
 public class App {
 
+    /**
+     * 工厂方法模式
+     * 定义一个接口及n个方法
+     * 不同的业务类实现该接口，在方法内实现个性化逻辑
+     *
+     */
     public App() {
         String[] classNames = new String[]{"com.alan.model.construction.factory.method.domain.ConcreteFactory1", "com.alan.model.construction.factory.method.domain.ConcreteFactory2"};
         for (String className : classNames) {

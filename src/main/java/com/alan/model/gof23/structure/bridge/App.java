@@ -1,6 +1,7 @@
 package com.alan.model.gof23.structure.bridge;
 
 import com.alan.model.gof23.structure.bridge.case1.*;
+import com.alan.model.gof23.structure.bridge.case2.*;
 import com.alan.model.gof23.structure.bridge.domain.Abstraction;
 import com.alan.model.gof23.structure.bridge.domain.ConcreteImplementorA;
 import com.alan.model.gof23.structure.bridge.domain.Implementor;
@@ -52,6 +53,13 @@ public class App {
         abs.operation();
         LOGGER.info("----------------------------------------------------");
 
+        // 场景1
+        new WxPay(new Face()).payment(); // 微信刷脸支付
+        new WxPay(new Mobile()).payment(); // 微信手机验证码支付
+        new AliPay(new Finger()).payment(); // 支付宝指纹支付
+        new JdPay(new Face()).payment(); // 京东刷脸支付
+
+        // 场景2
         Color color = new Yellow();
         Bag bag = new WalletBag(color);
         LOGGER.info("---------->{}", bag.getName());
